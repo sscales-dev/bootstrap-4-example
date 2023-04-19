@@ -16,20 +16,23 @@
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
 
+        <!-- Toggle Nav Button -->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
+        <!-- Collapsible Nav Dropdown (linked to above button) -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr2"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item mr2"><a class="nav-link" href="/about">About</a></li>
-                <li class="nav-item dropdown">
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown"> <!-- Dropdown Nav Item -->
+                    <!-- Toggle link -->
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Whiskeys
                     </a>
+                    <!-- Dropdown Menu -->
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Irish</a>
                         <a class="dropdown-item" href="#">Scotch</a>
@@ -37,18 +40,20 @@
                         <a class="dropdown-item" href="#">American</a>
                     </div>
                 </li>
-
-                <li class="nav-item mr2 d-block d-sm-none"><a class="nav-link" href="/signin">Sign In / Sign Up</a></li>
                 <!-- Only displayed on mobile device -->
+                <li class="nav-item mr2 d-block d-sm-none"><a class="nav-link" href="/signin">Sign In / Sign Up</a></li>
             </ul>
         </div>
+        <!-- Not displayed on mobile device -->
         <div class="d-none d-md-block">
-            <!-- Not displayed on mobile device -->
             <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
             <a href="/login">Sign In / Sign Up</a>
         </div>
     </nav>
+
+    <!-- Grid -->
     <article class="container mt-3">
+        <!-- Alert box - not visible on mobile -->
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -66,6 +71,7 @@
                         <s class="d-none d-sm-inline">£19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!></mark></strong></p>
+                    <!-- Sign Up Button -->
                     <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
                             responsibly.</small></p>
@@ -77,14 +83,17 @@
 
         <!-- Quotes -->
         <section class="quotes">
+            <!-- Heading Grid Row -->
             <div class="row">
                 <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes:</h2>
                 </div>
             </div>
+            <!-- Blockquotes -->
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="media">
+                        <!-- Image - not visible on mobile -->
                         <div class="d-none d-sm-block">
                             <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
                         </div>
@@ -99,6 +108,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="media">
+                        <!-- Image - not visible on mobile -->
                         <div class="d-none d-sm-block">
                             <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
                         </div>
@@ -117,37 +127,45 @@
 
         <!-- Features -->
         <section class="features">
+            <!-- Heading Grid Row -->
             <div class="row">
                 <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
+            <!-- Content Row -->
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
+                        <!-- Feature heading with icons + badge - icons not visible on mobile -->
                         <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span
                                 class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <!-- Read More Button -->
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
+                        <!-- Feature heading with icons - icons not visible on mobile -->                                    
                         <h3><i class="fa-regular fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <!-- Read More Button -->
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
+                        <!-- Feature heading with icons - icons not visible on mobile -->                                
                         <h3><i class="fa-solid fa-circle-xmark d-none d-sm-inline"></i> Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <!-- Read More Button -->
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                     </div>
                 </div>
@@ -156,7 +174,7 @@
         <!-- /.features -->
         <hr>
 
-        <!-- Monthly favourites -->
+        <!-- Monthly favourites
         <section class="monthly-favourites">
             <h2 class="text-uppercase">Monthly favourites:</h2>
             <table class="table">
@@ -186,9 +204,10 @@
                 </tbody>
             </table>
         </section>
-        <!-- /.monthly favourites -->
+        /.monthly favourites -->
     </article>
-    <!-- Modal -->
+
+    <!-- Sign Up Modal -->
     <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -218,7 +237,9 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
+
+    <!-- Bootstrap JS libraries -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
