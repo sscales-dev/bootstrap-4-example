@@ -1,15 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
-.alert-container {
-
-}
-
-.callout-container {
-
-}
-
-.features-container {
-    
+.callout-container{
+    height: 100vh;
 }
