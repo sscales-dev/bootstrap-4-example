@@ -1,6 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* Containers */
+.alert-container {
+
+}
 .callout-container{
     height: 100vh;
+}
+.quotes-container {
+
+}
+.features-container {
+
 }
