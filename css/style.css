@@ -26,6 +26,15 @@ body {
 
 }
 
+/* Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #f05f40;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -48,3 +57,4 @@ body {
     font-style: italic;
     color: #d0d0d0;
 }
+
