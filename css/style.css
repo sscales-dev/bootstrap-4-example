@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: #ffffff;
+}
+
 /* Containers */
 .alert-container .col-12 {
     padding-left: 0;
@@ -73,6 +82,13 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+/* Content Containers */
+
+.content-container {
+    padding-bottom: 75px;
+    padding-top: 75px;
 }
 
 /* Navbars */
