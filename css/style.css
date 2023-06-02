@@ -161,7 +161,8 @@ body {
 
 .jumbotron {
     background-color: rgba(140, 91, 63, 0.15);
-/*    height: 80%; */
+    padding-top: 125px;
+    height: 90%;
 }
 .jumbotron-header {
     color: #F5EFE6;
@@ -170,7 +171,7 @@ body {
 }
 
 .jumbotron .lead {
-    margin: 25px 0;
+    margin: 25px 0 40px 0;
     color: #a7a7a7;
 }
 
@@ -182,8 +183,9 @@ body {
 
 .jumbotron mark {
     background-color: rgba(217, 212, 186, 0.6);
-    border: rgba(217, 212, 186, 0.6);
+    border: 2px rgba(217, 212, 186, 0.2) outset;
     border-radius: 3px;
+    margin: 0 .5rem auto .5rem;
 }
 
 /* Buttons */
@@ -197,6 +199,11 @@ body {
     color: #F5EFE6;
     background-color: #d41d0c;
     border-color: #d41d0c;
+}
+
+.btn--margin {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .btn--red:hover,
@@ -249,8 +256,6 @@ body {
 .feature h3 .badge-success {
     margin: 0 .5rem;
 }
-
-
 
 @media screen and (min-width: 768px) {
     .blockquotes-row {
