@@ -476,5 +476,8 @@ input.form-control:focus {
         width: 95%;
         padding-left: 1rem;
     }
+    .modal-dialog {
+        margin-top: 15%;
+    }
 }
 
