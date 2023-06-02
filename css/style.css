@@ -281,7 +281,7 @@ body {
 }
 
 .feature h3 .badge-success {
-    margin: 0 .5rem;
+    margin: 0 0 0 1rem;
 }
 
 /* About Us  */
@@ -330,6 +330,7 @@ input.form-control:focus {
     outline: 0;
     box-shadow: none;
 }
+
 .form-group label {
     margin-left: -.1rem;
 }
@@ -352,14 +353,33 @@ input.form-control:focus {
 }
 
 @media screen and (min-width: 768px) {
-    .d-md-flex {
+    /* Navbar */
+    .navbar-brand {
+        font-size: 1.6rem;
+    }
+    #navbarNavDropdown {
+        background-color: transparent;
+    }
+    .dropdown-menu.show {
+        background-color: rgba(140, 91, 63, 0.15);
+    }
+
+    /* Navbar Signup */
+    .sign-up-navbox {
         flex-direction: column;
         align-items: flex-end;
         justify-content: flex-end;
     }
+    p.navbar-text {
+        padding: 0 0 .5rem 0;
+    }
+
+    /* Callout/ Jumbotron */
     .jumbotron .lead {
         margin: 25px auto;
     }
+
+    /* Quotes */ 
     .blockquotes-row {
         display: flex;
         flex-direction: column;
@@ -368,18 +388,8 @@ input.form-control:focus {
     .blockquotes-row  p {
         width: 100%;
     }
-    p.navbar-text {
-        padding: 0 0 .5rem 0;
-    }
-    .fa-truck-fast {
-        margin: 0 0 0 .75rem;
-    }
-    #navbarNavDropdown {
-        background-color: transparent;
-    }
-    .line-break {
-        height: 0.3rem;
-    }
+
+    /* Features */
     .features-container {
         padding-left: 20px;
     }
@@ -405,15 +415,22 @@ input.form-control:focus {
         padding: .5rem;
     }
 
-    /* About */
+    /* Icons */
+    .fa-truck-fast {
+        margin: 0 0 0 .75rem;
+    }
+
+    /* Spacers */
+    .line-break {
+        height: 0.3rem;
+    }
+
+    /* About Us Page*/
     .aboutus-container .col-12 {
         padding-top: 45px;
     }
 
-    /* Dropdown */
-    .dropdown-menu.show {
-        background-color: rgba(140, 91, 63, 0.15);
-    }
+
 
 }
 
