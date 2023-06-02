@@ -228,6 +228,12 @@ body {
     border-color: #a81c10;
 }
 
+#signUpModal .btn-success {
+    padding: .5rem 1rem;
+    margin: .5rem .5rem 1rem 72.5%;
+
+}
+
 /* FA Icons */
 .fa-truck-fast {
     margin: 0 0 0 .5rem;
@@ -309,6 +315,30 @@ body {
 
 .back-arrow-link:active {
     color: rgba(245, 239, 230, 1);
+}
+
+/* Sign up modal */
+.modal-dialog {
+    margin-top: 25%;
+}
+.modal-content {
+    background-color: rgba(245, 239, 230, 0.9);
+}
+
+input.form-control:focus {
+    border: 2px rgba(140, 91, 63, 0.6) inset;
+    outline: 0;
+    box-shadow: none;
+}
+.form-group label {
+    margin-left: -.1rem;
+}
+.form-group small {
+    padding-left: .15rem;
+}
+
+.form-divider {
+
 }
 
 /* Visibility: Hidden */
