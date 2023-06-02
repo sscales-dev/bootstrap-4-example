@@ -63,8 +63,8 @@
                 </ul>
             </div>
             <!-- Sign Up text and link - not displayed on mobile device -->
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+            <div class="d-none d-md-flex">
+                <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i><i class="fa-solid fa-truck-fast"></i></p>
                 <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
             </div>
         </nav>
@@ -79,9 +79,9 @@
                 <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
                     <hr class="block-divider block-divider--orange">
-                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys <span class="d-none d-sm-none d-md-block d-lg-none"><br></span>every month.
                         <s class="d-none d-sm-inline">£19.99</s>
-                        <span class="d-inline d-sm-none"><br></span>
+                        <span class="d-inline d-sm-none d-lg-block"><br></span>
                         <strong><mark >First one is free!></mark></strong>
                     </p>
                     <!-- Sign Up Button -->
@@ -107,8 +107,8 @@
                     </div>
                 </div>
                 <!-- Blockquotes -->
-                <div class="row">
-                    <div class="col-12 col-md-6">
+                <div class="row blockquotes">
+                    <div class="col-12 col-md-12 col-lg-4">
                         <div class="media">
                             <!-- Image - not visible on mobile -->
                             <div class="d-none d-sm-block">
@@ -120,10 +120,11 @@
                                     </p>
                                     <p>- Jane Doe</p>
                                 </blockquote>
+                                <hr class="d-block d-lg-none block-divider--thin">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-12 col-lg-4">
                         <div class="media">
                             <!-- Image - not visible on mobile -->
                             <div class="d-none d-sm-block">
@@ -131,13 +132,14 @@
                             </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
-                                    <p><p></p><i>"I haven't been sober for months!"</i></p>
+                                    <p><i>"I haven't been sober for months!"</i></p>
                                     <p>- Joe Bloggs</p>
                                 </blockquote>
+                                <hr class="d-block d-lg-none block-divider--quote">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-12 col-lg-4">
                         <div class="media">
                             <!-- Image - not visible on mobile -->
                             <div class="d-none d-sm-block">
@@ -145,9 +147,10 @@
                             </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
-                                    <p><p></p><i>"Perfect place to get a whiskey lover a gift."</i></p>
-                                    <p>- Ann Doe</p>
+                                    <p><i>"The perfect place to get a whiskey lover a gift."</i></p>
+                                    <p>- Ann Smith</p>
                                 </blockquote>
+                                <hr class="d-block d-lg-none block-divider--quote">
                             </div>
                         </div>
                     </div>
@@ -173,11 +176,10 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
                             <!-- Feature heading with icons + badge - icons not visible on mobile -->
-                            <h3><i class="fa-solid fa-gift d-none d-sm-block"></i> Feature 1 <span
-                                    class="badge badge-success">NEW!</span></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3><i class="fa-solid fa-gift d-none d-sm-block"></i>
+                                    Send a Gift!
+                                <span class="badge badge-success">NEW!</span></h3>
+                            <p>Choose from one of our gift packages to send a tailored bundle with a personalised message.</p>
                             <!-- Read More Button -->
                             <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                         </div>
@@ -185,10 +187,9 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
                             <!-- Feature heading with icons - icons not visible on mobile -->
-                            <h3><i class="fa-regular fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3><i class="fa-regular fa-credit-card d-none d-sm-block"></i>
+                                Pay By Card </h3>
+                            <p>Pay conveniently online. We accept all major credit and debit cards.</p>
                             <!-- Read More Button -->
                             <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                         </div>
@@ -196,10 +197,9 @@
                     <div class="col-12 d-md-none d-lg-block col-lg-4">
                         <div class="feature">
                             <!-- Feature heading with icons - icons not visible on mobile -->
-                            <h3><i class="fa-solid fa-circle-xmark d-none d-sm-block"></i> Feature 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3><i class="fa-solid fa-circle-xmark d-none d-sm-block"></i>
+                                Moneyback Guarantee </h3>
+                            <p>If you are not satisfied with the quality of the product, we will refund you in full. T&Cs Apply</p>
                             <!-- Read More Button -->
                             <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                         </div>
