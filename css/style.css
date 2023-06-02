@@ -69,10 +69,8 @@ body {
     padding-top: 75px;
 }
 .quotes-container .blockquotes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .features-container {
@@ -114,6 +112,11 @@ body {
     background-color: rgba(38, 11, 1, 0.2);
     margin-top: 2rem;
     margin-bottom: 3rem;
+}
+
+/* Line Break */
+.line-break {
+
 }
 
 /* Navbars */
@@ -308,7 +311,25 @@ body {
     color: rgba(245, 239, 230, 1);
 }
 
+/* Visibility: Hidden */
+.hidden {
+    visibility: hidden;
+}
+
+/* Display: None */
+.removed {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
+    .d-md-flex {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .jumbotron .lead {
+        margin: 25px auto;
+    }
     .blockquotes-row {
         display: flex;
         flex-direction: column;
@@ -317,15 +338,53 @@ body {
     .blockquotes-row  p {
         width: 100%;
     }
-    .d-md-flex {
-        flex-direction: column-reverse;
-        align-items: flex-end;
-        justify-content: flex-end;
+    p.navbar-text {
+        padding: 0 0 .5rem 0;
+    }
+    .fa-truck-fast {
+        margin: 0 0 0 .75rem;
+    }
+    #navbarNavDropdown {
+        background-color: transparent;
+    }
+    .line-break {
+        height: 0.3rem;
+    }
+    .features-container {
+        padding-left: 20px;
+    }
+    .features .page-header {
+        margin-bottom: 1.25rem;
+    }
+    .features .feature-box {
+        padding-left: 1.25rem;
+    }
+    .feature-box .feature {
+        margin: 0 2rem 0 1rem;
+    }
+    .feature .svg-inline--fa {
+        margin: 0 .75rem 0 .25rem;
+        margin-bottom: 0;
+    }
+    .feature h3 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .feature p {
+        padding: .5rem;
     }
 
-    .jumbotron .lead {
-        margin: 25px auto;
+    /* About */
+    .aboutus-container .col-12 {
+        padding-top: 45px;
     }
+
+    /* Dropdown */
+    .dropdown-menu.show {
+        background-color: rgba(140, 91, 63, 0.15);
+    }
+
 }
 
 @media screen and (min-width: 992px) {
