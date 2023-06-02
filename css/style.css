@@ -480,4 +480,25 @@ input.form-control:focus {
         margin-top: 15%;
     }
 }
+@media screen and (min-width: 1200px) {
+    .sign-up-navbox {
+        flex-direction: row;
+        align-items: center;
+    }
+    .callout-container {
+        justify-content: flex-start;
+        padding-left: 9%;
+    }
+    .jumbotron {
+        width: 120%;
+    }
+    .row.blockquotes {
+        flex-direction: row;
+    }
+    .features-container {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 75%;
+    }
+}
 
