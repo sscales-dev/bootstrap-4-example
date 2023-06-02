@@ -435,8 +435,46 @@ input.form-control:focus {
 }
 
 @media screen and (min-width: 992px) {
+    .callout-container .col-12 {
+        padding-top: 20%;
+    }
     .quotes-container {
         max-width: 75%;
+        padding-bottom: 4rem;
+    }
+    .blockquotes {
+        flex-direction: column;
+    }
+    .blockquotes .col-lg-12 {
+        padding-top: 2rem;
+        padding-bottom: 1.75rem;
+    }
+    .features-container {
+        padding-left: 10px;
+        padding-right: 5px
+    }
+    .features .page-header {
+        margin-bottom: 3rem;
+    }
+    .features .row {
+        padding-bottom: 2rem;
+        padding-left: 0.5rem;
+    }
+    .features .feature-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        padding-left: 0;
+    }
+    .feature-box .feature {
+        margin: 5px 5px 5px 10px;
+    }
+    .feature-box-1 .feature {
+        width: 95%;
+    }
+    .feature-box-2 .feature {
+        width: 95%;
+        padding-left: 1rem;
     }
 }
 
